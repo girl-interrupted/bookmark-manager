@@ -4,6 +4,7 @@ As a user
 So that I can go to web sites I saved
 I would like to see a list of bookmarks
 ```
+```
 As a user
 So I can store bookmark data for later retrieval
 I want to add a bookmark to Bookmark Manager
@@ -36,7 +37,11 @@ rackup -p 3000
 To view bookmarks, navigate to `localhost:3000/bookmarks`.
 
 ### To run tests:
-
 ```
 rspec
+```
+
+### To run linting:
+```
+rubocop
 ```
